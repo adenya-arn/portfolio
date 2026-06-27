@@ -29,21 +29,34 @@ export const projects = [
   {
     id: 2,
 
-    title: "Blog API",
+    title: "Blog Platform",
 
-    tag: "Backend",
+    tag: "Full Stack",
 
     description:
-      "RESTful backend providing authentication, role-based authorization, and CRUD operations for blog management.",
+      "A complete blogging platform consisting of three independent applications: a REST API backend, an administrative dashboard for content management, and a client application for readers. Together they provide authentication, role-based authorization, article management, commenting, and a seamless publishing workflow.",
 
-    image: "/projects/blog-api.png",
+    image: "/projects/blog-platform.png",
 
-    tech: ["Express", "PostgreSQL", "Prisma", "JWT"],
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
 
-    github: "#",
+    github: {
+      api: "#",
+      admin: "#",
+      client: "#",
+    },
 
-    live: "#",
+    live: {
+      admin: "#",
+      client: "#",
+    },
 
-    learnings: ["REST APIs", "JWT", "Middleware", "API Design"],
+    learnings: [
+      "Designing RESTful APIs",
+      "JWT Authentication & Authorization",
+      "Managing multiple applications from one backend",
+      "Building role-based admin interfaces",
+      "Connecting React frontends to Express APIs",
+    ],
   },
 ];
