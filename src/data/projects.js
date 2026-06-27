@@ -1,75 +1,40 @@
-// export const projects = [
-//   {
-//     title: "File Uploader",
-//     description:
-//       "Cloud-style file management application with authentication, folders, and file organization.",
-//     tech: ["Node.js", "Express", "PostgreSQL", "Prisma"],
-//     github: "#",
-//     demo: "#",
-//   },
-
-//   {
-//     title: "Blog API",
-//     description:
-//       "RESTful API with authentication, authorization, and content management.",
-//     tech: ["Express", "PostgreSQL", "Prisma"],
-//     github: "#",
-//     demo: "#",
-//   },
-
-//   {
-//     title: "Blog Client",
-//     description:
-//       "Frontend application consuming a blog API and displaying content dynamically.",
-//     tech: ["React", "JavaScript", "CSS"],
-//     github: "#",
-//     demo: "#",
-//   },
-
-//   {
-//     title: "Where's Waldo",
-//     description:
-//       "Interactive photo tagging game inspired by the classic Where's Waldo challenge.",
-//     tech: ["React", "Node.js", "PostgreSQL"],
-//     github: "#",
-//     demo: "#",
-//   //   },
-// ];
-
 export const projects = [
   {
     id: 1,
+
     title: "File Uploader",
 
-    subtitle: "Cloud-inspired file management application",
+    tag: "Full Stack",
 
     description:
-      "A secure file management platform that allows users to create folders, upload files, organize content, and manage their documents with authentication.",
+      "A cloud-inspired file management application that allows users to organize folders, upload files securely, and manage content with authentication.",
 
     image: "/projects/file-uploader.png",
 
-    tech: ["Node.js", "Express", "PostgreSQL", "Prisma", "Passport.js"],
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
 
     github: "#",
 
     live: "#",
 
     learnings: [
-      "Authentication & Authorization",
+      "Authentication",
+      "Authorization",
       "MVC Architecture",
+      "Database Design",
       "Prisma ORM",
-      "Database Relationships",
     ],
   },
 
   {
     id: 2,
+
     title: "Blog API",
 
-    subtitle: "RESTful backend service",
+    tag: "Backend",
 
     description:
-      "A complete blog backend supporting authentication, role-based access, and CRUD operations through a REST API.",
+      "RESTful backend providing authentication, role-based authorization, and CRUD operations for blog management.",
 
     image: "/projects/blog-api.png",
 
@@ -79,6 +44,6 @@ export const projects = [
 
     live: "#",
 
-    learnings: ["REST APIs", "JWT Authentication", "Middleware", "API Design"],
+    learnings: ["REST APIs", "JWT", "Middleware", "API Design"],
   },
 ];

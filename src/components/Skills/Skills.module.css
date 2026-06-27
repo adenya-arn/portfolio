@@ -55,3 +55,9 @@ i.skills {
 
     font-size: .9rem;
 }
+
+.icon {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+}

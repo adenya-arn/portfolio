@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 1rem;
+}
+
+.card {
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    padding: 1.3rem;
+
+    border-radius: var(--radius);
+
+    transition: var(--transition);
+
+    color: var(--text-secondary);
+}
+
+.card:hover {
+    border-color: var(--accent);
+
+    transform: translateY(-4px);
+
+    color: white;
+}

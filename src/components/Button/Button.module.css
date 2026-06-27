@@ -1,0 +1,35 @@
+.button {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 1rem 1.8rem;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.primary {
+    background: var(--accent);
+
+    color: black;
+}
+
+.primary:hover {
+    transform: translateY(-3px);
+
+    background: var(--accent-hover);
+}
+
+.secondary {
+    border: 1px solid var(--border);
+}
+
+.secondary:hover {
+    background: var(--surface);
+}

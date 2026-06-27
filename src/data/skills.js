@@ -1,37 +1,27 @@
+import { FaReact, FaNodeJs, FaDatabase, FaTools } from "react-icons/fa";
+
 export const skills = [
   {
     title: "Frontend",
-    icon: "🌐",
-    technologies: [
-      "HTML5",
-      "CSS3",
-      "JavaScript (ES6+)",
-      "React",
-      "Responsive Design",
-    ],
+    icon: FaReact,
+    technologies: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design"],
   },
 
   {
     title: "Backend",
-    icon: "⚙️",
-    technologies: [
-      "Node.js",
-      "Express.js",
-      "REST APIs",
-      "Authentication",
-      "MVC Architecture",
-    ],
+    icon: FaNodeJs,
+    technologies: ["Node.js", "Express", "REST APIs", "Authentication", "MVC"],
   },
 
   {
     title: "Database",
-    icon: "🗄️",
+    icon: FaDatabase,
     technologies: ["PostgreSQL", "Prisma ORM"],
   },
 
   {
     title: "Tools",
-    icon: "🛠️",
+    icon: FaTools,
     technologies: ["Git", "GitHub", "Linux", "VS Code", "Postman"],
   },
 ];
