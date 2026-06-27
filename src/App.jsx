@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/NavBar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills";
 // import { projects } from "./data/projects";
 import Experience from "./components/Experience";
 import Journey from "./components/Journey";
