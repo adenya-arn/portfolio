@@ -1,0 +1,45 @@
+.contact {
+    text-align: center;
+
+    padding-block: 8rem;
+}
+
+.heading {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    max-width: 700px;
+
+    margin: auto;
+
+    color: var(--text-secondary);
+
+    line-height: 1.8;
+
+    margin-bottom: 3rem;
+}
+
+.links {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 2rem;
+
+    margin-top: 3rem;
+
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: var(--text-secondary);
+
+    transition: var(--transition);
+}
+
+.links a:hover {
+    color: var(--accent);
+}
