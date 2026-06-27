@@ -25,9 +25,9 @@ function Navbar() {
           ))}
         </ul>
 
-        <a href="/CURRICULUM_VITAE.pdf" className={styles.resume}>
+        {/* <a href={contact.resume} className={styles.resume}>
           Resume
-        </a>
+        </a> */}
       </nav>
     </header>
   );

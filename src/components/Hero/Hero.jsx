@@ -1,5 +1,6 @@
 import styles from "./Hero.module.css";
 import { personalInfo } from "../../data/portfolioData";
+import { contact } from "../../data/contact";
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
               View Projects
             </a>
 
-            <a href="/CURRICULUM_VITAE.pdf" className={styles.secondary}>
+            <a href={contact.resume} className={styles.secondary}>
               Download CV
             </a>
           </div>
