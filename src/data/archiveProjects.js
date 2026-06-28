@@ -34,7 +34,11 @@ export const archiveProjects = [
     projects: [
       { name: "CV Application", github: "#" },
       { name: "Memory Card", github: "#" },
-      { name: "Shopping Cart", github: "#" },
+      {
+        name: "Shopping Cart",
+        github: "#",
+        livepreview: "https://shopping-cart-delta-ochre.vercel.app/",
+      },
     ],
   },
 
