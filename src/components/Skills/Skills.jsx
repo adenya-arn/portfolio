@@ -15,19 +15,23 @@ function Skills() {
         </p>
 
         <div className={styles.grid}>
-          {skills.map((skill) => (
-            <article key={skill.title} className={styles.card}>
-              <h3>
-                {skill.icon} {skill.title}
-              </h3>
+          {skills.map((skill) => {
+            const Icon = skill.icon;
 
-              <div className={styles.badges}>
-                {skill.technologies.map((tech) => (
-                  <span key={tech}>{tech}</span>
-                ))}
-              </div>
-            </article>
-          ))}
+            return (
+              <article key={skill.title} className={styles.card}>
+                <h3>
+                  <Icon /> {skill.title}
+                </h3>
+
+                <div className={styles.badges}>
+                  {skill.technologies.map((tech) => (
+                    <span key={tech}>{tech}</span>
+                  ))}
+                </div>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

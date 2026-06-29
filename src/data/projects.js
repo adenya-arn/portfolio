@@ -13,9 +13,14 @@ export const projects = [
 
     tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
 
-    github: "#",
+    github: [
+      {
+        label: "Repository",
+        url: "#",
+      },
+    ],
 
-    live: "#",
+    live: [],
 
     learnings: [
       "Authentication",
@@ -40,16 +45,31 @@ export const projects = [
 
     tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
 
-    github: {
-      api: "https://github.com/adenya-arn/blog_app/tree/main/blog_api",
-      admin: "https://github.com/adenya-arn/blog_app/tree/main/blog_admin",
-      client: "https://github.com/adenya-arn/blog_app/tree/main/blog_client",
-    },
+    github: [
+      {
+        label: "API",
+        url: "https://github.com/adenya-arn/blog_app/tree/main/blog_api",
+      },
+      {
+        label: "Admin",
+        url: "https://github.com/adenya-arn/blog_app/tree/main/blog_admin",
+      },
+      {
+        label: "Client",
+        url: "https://github.com/adenya-arn/blog_app/tree/main/blog_client",
+      },
+    ],
 
-    live: {
-      admin: "https://blog-admin-sandy-two.vercel.app/",
-      client: "https://blog-client-eight-alpha.vercel.app/",
-    },
+    live: [
+      {
+        label: "Admin",
+        url: "https://blog-admin-sandy-two.vercel.app/",
+      },
+      {
+        label: "Client",
+        url: "https://blog-client-eight-alpha.vercel.app/",
+      },
+    ],
 
     learnings: [
       "Designing RESTful APIs",
@@ -62,41 +82,77 @@ export const projects = [
   {
     id: 3,
 
-    title: "Pokémon Memory Game",
+    title: "Developer Portfolio",
 
     tag: "React",
 
     description:
-      "An interactive memory game built with React that fetches Pokémon from the PokéAPI. Players test their memory by selecting unique cards while the game dynamically shuffles the board after every move.",
+      "A modern, responsive single-page portfolio built with React to showcase my projects, technical skills, and software engineering journey. The application is fully component-based, data-driven, and designed with scalability in mind, making it easy to maintain and expand as I continue building new projects.",
 
-    image: "/projects/memory-game.png",
+    image: "/projects/portfolio.png",
 
-    tech: ["React", "Vite", "CSS", "Fetch API", "PokéAPI"],
+    tech: ["React", "Vite", "CSS Modules", "JavaScript", "Responsive Design"],
 
     github: [
       {
         label: "Repository",
-        url: "https://github.com/adenya-arn/memory_project",
+        url: "https://github.com/adenya-arn/portfolio",
       },
     ],
 
     live: [
       {
         label: "Live Demo",
-        url: "https://memory-project-flax.vercel.app/",
+        url: "#",
       },
     ],
 
     learnings: [
-      "React Hooks",
-      "State Management",
-      "useEffect",
-      "API Integration",
-      "Component Composition",
+      "Component-Based Architecture",
+      "Reusable UI Components",
+      "Responsive Web Design",
+      "Data-Driven Rendering",
+      "Project Organization",
     ],
   },
   {
     id: 4,
+
+    title: "Battleship",
+
+    tag: "JavaScript",
+
+    description:
+      "A browser-based implementation of the classic Battleship game featuring manual ship placement, an intelligent computer opponent, and comprehensive unit testing using Jest.",
+
+    image: "/projects/battleship.png",
+
+    tech: ["JavaScript", "Webpack", "HTML", "CSS", "Jest"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/battleship",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://adenya-arn.github.io/battleship/",
+      },
+    ],
+
+    learnings: [
+      "Object-Oriented Programming",
+      "Game Logic",
+      "Testing with Jest",
+      "Module Architecture",
+    ],
+  },
+
+  {
+    id: 5,
 
     title: "Shopping Cart",
 
@@ -131,8 +187,46 @@ export const projects = [
       "PropTypes",
     ],
   },
+
   {
-    id: 5,
+    id: 6,
+
+    title: "Pokémon Memory Game",
+
+    tag: "React",
+
+    description:
+      "An interactive memory game built with React that fetches Pokémon from the PokéAPI. Players test their memory by selecting unique cards while the game dynamically shuffles the board after every move.",
+
+    image: "/projects/memory-game.png",
+
+    tech: ["React", "Vite", "CSS", "Fetch API", "PokéAPI"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/memory_project",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://memory-project-flax.vercel.app/",
+      },
+    ],
+
+    learnings: [
+      "React Hooks",
+      "State Management",
+      "useEffect",
+      "API Integration",
+      "Component Composition",
+    ],
+  },
+
+  {
+    id: 7,
 
     title: "CV Builder",
 
@@ -165,41 +259,6 @@ export const projects = [
       "localStorage",
       "Conditional Rendering",
       "Dynamic Lists",
-    ],
-  },
-  {
-    id: 6,
-
-    title: "Battleship",
-
-    tag: "JavaScript",
-
-    description:
-      "A browser-based implementation of the classic Battleship game featuring manual ship placement, an intelligent computer opponent, and comprehensive unit testing using Jest.",
-
-    image: "/projects/battleship.png",
-
-    tech: ["JavaScript", "Webpack", "HTML", "CSS", "Jest"],
-
-    github: [
-      {
-        label: "Repository",
-        url: "https://github.com/adenya-arn/battleship",
-      },
-    ],
-
-    live: [
-      {
-        label: "Live Demo",
-        url: "https://adenya-arn.github.io/battleship/",
-      },
-    ],
-
-    learnings: [
-      "Object-Oriented Programming",
-      "Game Logic",
-      "Testing with Jest",
-      "Module Architecture",
     ],
   },
 ];

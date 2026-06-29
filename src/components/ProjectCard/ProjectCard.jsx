@@ -5,7 +5,11 @@ function ProjectCard({ project, reverse }) {
   return (
     <article className={`${styles.card} ${reverse ? styles.reverse : ""}`}>
       <div className={styles.image}>
-        <div className={styles.placeholder}>Project Screenshot</div>
+        <img
+          src={project.image}
+          alt={`${project.title} screenshot`}
+          className={styles.projectImage}
+        />
       </div>
 
       <div className={styles.content}>
@@ -30,11 +34,18 @@ function ProjectCard({ project, reverse }) {
         </ul>
 
         <div className={styles.buttons}>
-          <Button href={project.live}>Live Demo</Button>
+          {project.live.length > 0 &&
+            project.live.map((demo) => (
+              <Button key={demo.label} href={demo.url}>
+                {demo.label}
+              </Button>
+            ))}
 
-          <Button href={project.github} variant="secondary">
-            GitHub
-          </Button>
+          {project.github.map((repo) => (
+            <Button key={repo.label} href={repo.url} variant="secondary">
+              {repo.label === "Repository" ? "GitHub" : `GitHub ${repo.label}`}
+            </Button>
+          ))}
         </div>
       </div>
     </article>
