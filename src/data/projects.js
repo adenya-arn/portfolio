@@ -103,7 +103,7 @@ export const projects = [
     live: [
       {
         label: "Live Demo",
-        url: "#",
+        url: "https://arnoldsportfolio.vercel.app/",
       },
     ],
 
