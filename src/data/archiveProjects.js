@@ -26,6 +26,11 @@ export const archiveProjects = [
       { name: "HashMap", github: "#" },
       { name: "Binary Search Trees", github: "#" },
       { name: "Knights Travails", github: "#" },
+      {
+        name: "Battleship",
+        github: "#",
+        livepreview: "https://adenya-arn.github.io/battleship/",
+      },
     ],
   },
 

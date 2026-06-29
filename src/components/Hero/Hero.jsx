@@ -20,7 +20,7 @@ function Hero() {
               View Projects
             </a>
 
-            <a href={contact.resume} className={styles.secondary}>
+            <a href={contact.resume} download className={styles.primary}>
               Download CV
             </a>
           </div>

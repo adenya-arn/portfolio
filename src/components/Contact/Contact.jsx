@@ -1,6 +1,5 @@
 import styles from "./Contact.module.css";
 import { contact } from "../../data/contact";
-import Button from "../Button/Button";
 import {
   FaEnvelope,
   FaPhone,
@@ -16,8 +15,6 @@ function Contact() {
         <h2 className={styles.heading}>{contact.heading}</h2>
 
         <p className={styles.description}>{contact.description}</p>
-
-        <Button href={`mailto:${contact.email}`}>Email Me</Button>
 
         <div className={styles.contactGrid}>
           <a href={`mailto:${contact.email}`} className={styles.card}>

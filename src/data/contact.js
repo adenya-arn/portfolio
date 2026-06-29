@@ -10,7 +10,7 @@ export const contact = {
 
   github: "https://github.com/adenya-arn",
 
-  linkedin: "https://linkedin.com/in/YOUR_PROFILE",
+  linkedin: "https://linkedin.com/in/arnold-adenya",
 
   resume: "/Arnold_Adenya_CV.pdf",
 };

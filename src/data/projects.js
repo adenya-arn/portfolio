@@ -41,14 +41,14 @@ export const projects = [
     tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT"],
 
     github: {
-      api: "#",
-      admin: "#",
-      client: "#",
+      api: "https://github.com/adenya-arn/blog_app/tree/main/blog_api",
+      admin: "https://github.com/adenya-arn/blog_app/tree/main/blog_admin",
+      client: "https://github.com/adenya-arn/blog_app/tree/main/blog_client",
     },
 
     live: {
-      admin: "#",
-      client: "#",
+      admin: "https://blog-admin-sandy-two.vercel.app/",
+      client: "https://blog-client-eight-alpha.vercel.app/",
     },
 
     learnings: [
@@ -57,6 +57,149 @@ export const projects = [
       "Managing multiple applications from one backend",
       "Building role-based admin interfaces",
       "Connecting React frontends to Express APIs",
+    ],
+  },
+  {
+    id: 3,
+
+    title: "Pokémon Memory Game",
+
+    tag: "React",
+
+    description:
+      "An interactive memory game built with React that fetches Pokémon from the PokéAPI. Players test their memory by selecting unique cards while the game dynamically shuffles the board after every move.",
+
+    image: "/projects/memory-game.png",
+
+    tech: ["React", "Vite", "CSS", "Fetch API", "PokéAPI"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/memory_project",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://memory-project-flax.vercel.app/",
+      },
+    ],
+
+    learnings: [
+      "React Hooks",
+      "State Management",
+      "useEffect",
+      "API Integration",
+      "Component Composition",
+    ],
+  },
+  {
+    id: 4,
+
+    title: "Shopping Cart",
+
+    tag: "React",
+
+    description:
+      "A responsive e-commerce frontend built with React Router that allows users to browse products, manage a shopping cart, and experience client-side navigation within a single-page application.",
+
+    image: "/projects/shopping-cart.png",
+
+    tech: ["React", "React Router", "Vite", "CSS", "Fake Store API"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/shopping_cart",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://shopping-cart-delta-ochre.vercel.app/",
+      },
+    ],
+
+    learnings: [
+      "React Router",
+      "Fetching API Data",
+      "Component Architecture",
+      "State Management",
+      "PropTypes",
+    ],
+  },
+  {
+    id: 5,
+
+    title: "CV Builder",
+
+    tag: "React",
+
+    description:
+      "A résumé builder that allows users to create, edit, and preview professional CVs in real time while automatically saving their progress using localStorage.",
+
+    image: "/projects/cv-builder.png",
+
+    tech: ["React", "Vite", "CSS", "localStorage"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/cv_application",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://cv-application-teal-seven.vercel.app/",
+      },
+    ],
+
+    learnings: [
+      "Controlled Components",
+      "Form Management",
+      "localStorage",
+      "Conditional Rendering",
+      "Dynamic Lists",
+    ],
+  },
+  {
+    id: 6,
+
+    title: "Battleship",
+
+    tag: "JavaScript",
+
+    description:
+      "A browser-based implementation of the classic Battleship game featuring manual ship placement, an intelligent computer opponent, and comprehensive unit testing using Jest.",
+
+    image: "/projects/battleship.png",
+
+    tech: ["JavaScript", "Webpack", "HTML", "CSS", "Jest"],
+
+    github: [
+      {
+        label: "Repository",
+        url: "https://github.com/adenya-arn/battleship",
+      },
+    ],
+
+    live: [
+      {
+        label: "Live Demo",
+        url: "https://adenya-arn.github.io/battleship/",
+      },
+    ],
+
+    learnings: [
+      "Object-Oriented Programming",
+      "Game Logic",
+      "Testing with Jest",
+      "Module Architecture",
     ],
   },
 ];
