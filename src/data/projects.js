@@ -16,7 +16,7 @@ export const projects = [
     github: [
       {
         label: "Repository",
-        url: "#",
+        url: "https://github.com/adenya-arn/file_uploader",
       },
     ],
 

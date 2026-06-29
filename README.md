@@ -1,4 +1,4 @@
-i# 💼 Developer Portfolio
+# 💼 Developer Portfolio
 
 A modern, responsive developer portfolio built with React to showcase my software engineering projects, technical skills, and professional journey.
 

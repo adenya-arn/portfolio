@@ -12,5 +12,5 @@ export const contact = {
 
   linkedin: "https://linkedin.com/in/arnold-adenya",
 
-  resume: "/Arnold_Adenya_CV.pdf",
+  resume: "/ARNOLD_ADENYA_CV.pdf",
 };
